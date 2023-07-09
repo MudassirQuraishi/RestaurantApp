@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Quraishi's Restaurant
+        </h1>
+    </header>
+    <form id="myForm">
+        <label for="dishName">Dish name:</label>
+        <input type="text" name="dishName" id="dishName" placeholder="Enter Dish Name">
+        <label for="dishPrice">Dish Price:</label>
+        <input type="number" name="dishPrice" id="dishPrice" placeholder="Enter Price">
+        <label for="dishQuantity">Quantity:</label>
+        <input type="number" name="dishQuantity" id="dishQuantity" placeholder="Enter Quantity">
+        <label for="orderTable">Choose a Table</label>
+        <select name="orderTable" id="orderTable">
+            <option value="0">Table 1</option>
+            <option value="1">Table 2</option>
+            <option value="2">Table 3</option>
+        </select>
+        <button type="submit" id="submit">Add to Bill</button> <br> <hr>
+        <form id="tables">
+            <h1>Orders</h1>
+            <table id="firstTable" class="center">
+                <h4>Table 1</h4>
+                <thead>
+                    <tr>
+                        <th>Dish Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Modify Order</th>
+                    </tr>
+                </thead>
+            </table><br><hr>
+            <table id="secondTable" class="center">
+                <h4>Table 2</h4>
+                <thead>
+                    <tr>
+                        <th>Dish Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Modify Order</th>
+                    </tr>
+                </thead>
+            </table><br><hr>
+            <table id="thirdTable" class="center">
+                <h4>Table 3</h4>
+                <thead>
+                    <tr>
+                        <th>Dish Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Modify Order</th>
+                    </tr>
+                </thead>
+            </table><br><hr>
+        </form>
+    </form>
+    <script src="restaurant.js"></script>
+
+    
+</body>
+</html>

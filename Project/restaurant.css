@@ -1,0 +1,26 @@
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 40px;
+}
+td, th{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+    font-size: small;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+table.center{
+    margin-left:auto;
+    margin-right: auto;
+}
+header{
+    text-align: center;
+    background-color: lavender;
+}
+h1{
+    text-align: center;
+}
